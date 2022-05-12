@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="node_modules/pretty-checkbox/dist/pretty-checkbox.css" />
+    <link rel="stylesheet" href="../css/swiper.css" />
+    <link rel="stylesheet" href="../node_modules/@mdi/font/css/materialdesignicons.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <ul class="infoGraphic">
+            <li>
+                <div class="numberWrap">
+                    <div class="number fontColor1">1</div>
+                    <div class="coverWrap">
+                        <div class="numberCover"></div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="icon">
+                        <i class="mdi mdi-account-multiple"></i>
+                    </div>
+                    <h2>sign in</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </li>
+            <li>
+                <div class="numberWrap">
+                    <div class="number fontColor2">2</div>
+                    <div class="coverWrap">
+                        <div class="numberCover"></div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="icon">
+                        <img src="../img/introduction.svg" alt="" height="30px" />
+                    </div>
+                    <h2>Introduction</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </li>
+            <li>
+                <div class="numberWrap">
+                    <div class="number fontColor3">3</div>
+                    <div class="coverWrap">
+                        <div class="numberCover"></div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="icon">
+                        <img src="../img/resume.ico" alt="" height="30px" />
+                    </div>
+                    <h2>resume</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </li>
+            <li>
+                <div class="numberWrap">
+                    <div class="number fontColor4">4</div>
+                    <div class="coverWrap">
+                        <div class="numberCover"></div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="icon">
+                        <img src="../img/welcome-icon-21.jpg" alt="" height="40px" />
+                    </div>
+                    <h2>welcome</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </li>
+        </ul>
+    </main>
+
+    <div class="controls">
+        <div class="sliderBox">
+            <input id="range" type="range" name="font-size" min=".6" max="1.5" value="1" step=".1" data-units="rem" />
+            <div>Scale in rems: <span class="range-value"></span></div>
+        </div>
+    </div>
+
+    <div class="blog-slider">
+        <div class="blog-slider__wrp swiper-wrapper">
+            <div id="slide1" class="blog-slider__item swiper-slide">
+                <div class="blog-slider__img">
+                    <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759872/kuldar-kalvik-799168-unsplash.webp" alt="" />
+                </div>
+                <div class="blog-slider__content">
+                    <div class="form">
+                        <form action="#">
+                            <div class="text-input">
+                                <label for="username">Username</label>
+                                <input type="text" name="username" id="username" placeholder="" />
+                                <span class="separator"> </span>
+                            </div>
+
+                            <div class="text-input">
+                                <label for="password">Password</label>
+                                <input type="password" name="password" id="password" placeholder="" />
+                                <span class="separator"> </span>
+                            </div>
+                        </form>
+                    </div>
+
+                    <a href="#" id="first" class="blog-slider__button">Next</a>
+                </div>
+            </div>
+            <div id="slide2" class="blog-slider__item swiper-slide">
+                <div class="blog-slider__img">
+                    <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/jason-leung-798979-unsplash.webp" alt="" />
+                </div>
+                <div class="blog-slider__content">
+                    <div class="blog-slider__title">Introduction</div>
+                    <div class="blog-slider__text">
+                        <!-- <a href="#" class="blog-slider__button21 ">Introduction</a> -->
+                        <div class="form">
+                            <form action="#">
+                                <div class="text-input">
+                                    <label for="username">Name</label>
+                                    <input type="text" name="username" id="username" placeholder="" />
+                                    <span class="separator"> </span>
+                                </div>
+
+                                <div class="text-input">
+                                    <label for="password">Last name</label>
+                                    <input type="password" name="password" id="password" placeholder="" />
+                                    <span class="separator"> </span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <a href="#" class="blog-slider__button">Previous</a>
+                    <a href="#" class="blog-slider__button">Next</a>
+                </div>
+            </div>
+
+            <div id="slide3" class="blog-slider__item swiper-slide">
+                <div class="blog-slider__img">
+                    <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/alessandro-capuzzi-799180-unsplash.webp" alt="" />
+                </div>
+                <div class="blog-slider__content">
+                    <div class="blog-slider__title">Resume</div>
+                    <!-- <div class="blog-slider__text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?
+                    </div> -->
+                    <section style="margin: 15px;">
+                        <div class="file-upload">
+                            <input id="file-s" type="file" />
+                            <label for="file-s">
+                                <span>Filename</span>
+                                <button>Choose File</button>
+                            </label>
+                        </div>
+                    </section>
+
+                    <a href="#" class="blog-slider__button">Previous</a>
+                    <a href="#" class="blog-slider__button">Next</a>
+                </div>
+            </div>
+            <div id="slide4" class="blog-slider__item swiper-slide">
+                <div class="blog-slider__img">
+                    <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/alessandro-capuzzi-799180-unsplash.webp" alt="" />
+                </div>
+                <div class="blog-slider__content">
+                    <h1 class="title">
+                        <div class="blog-slider__title title-part line-1 title">Welcome to Company</div>
+                    </h1>
+                    <!-- <div class="blog-slider__text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?
+                    </div> -->
+                    <a href="#" class="blog-slider__button">Previous</a>
+                    <a href="#" class="blog-slider__button">Send</a>
+                </div>
+            </div>
+        </div>
+        <div class="blog-slider__pagination"></div>
+    </div>
+</body>
+
+<script src="../node_modules/jquery/dist/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.4.1/jspdf.min.js" crossorigin="anonymous"></script>
+<script src="../js/TweenMax.js"></script>
+<script src="../js/swiper.js"></script>
+<script src="../js/main.js"></script>
+
+</html>
